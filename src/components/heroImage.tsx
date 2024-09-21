@@ -1,5 +1,12 @@
 import colors from '../utils/colors';
 import heroPhoto from '../../public/photos/hero/hero2.png';
+import suma1 from '../../public/photos/hero/suma.png';
+import suma2 from '../../public/photos/hero/suma2.png';
+import suma3 from '../../public/photos/hero/suma3.png';
+import suma4 from '../../public/photos/hero/suma4.png';
+import suma5 from '../../public/photos/hero/suma5.png';
+import suma6 from '../../public/photos/hero/suma6.png';
+import suma7 from '../../public/photos/hero/suma7.png';
 import heroDraw from '../../public/photos/hero/draw2.png';
 import Image from 'next/image';
 import { motion, Variants } from 'framer-motion';
@@ -59,7 +66,12 @@ const HeroImage = () => {
           <stop offset='100%' stopColor={'rgba(0, 0, 0, 0)'} />
         </linearGradient>
       </motion.svg>
-      <Image src={heroPhoto} alt='Suma' className='hero-image absolute bottom-0 h-[60%] w-full object-contain xs:h-[75%]' />
+      <Image 
+      src={suma7} 
+      alt='Suma' 
+      className='hero-image absolute bottom-0 h-[60%] w-full object-contain xs:h-[75%]'
+      style={{ transform: 'translateX(90px)' }} 
+      />
       <div
         className='hero-draw absolute bottom-0 h-[60%] w-full bg-text object-contain xs:h-[75%]'
         style={{

@@ -4,6 +4,10 @@ import cognizant from '../../public/icons/companies/cognizant.png';
 import hofincons from '../../public/icons/companies/hofin2.png';
 import bdl from '../../public/icons/companies/bdl.png';
 import medtoureasy from '../../public/icons/companies/mte.jpeg';
+import oscer from '../../public/icons/companies/oscer.jpg';
+import ou from '../../public/icons/companies/ou.jpeg';
+import ou2 from '../../public/icons/companies/ou2.png';
+import infosys from '../../public/icons/companies/infosys.jpg';
 
 // Projects
 import sociogram from '../../public/photos/projects/sociogram.png';
@@ -12,11 +16,16 @@ import ethicate from '../../public/photos/projects/ethicate2.png';
 import sengine from '../../public/photos/projects/search.png';
 import signlang from '../../public/photos/projects/signs.jpeg';
 import hivetalk from '../../public/photos/projects/hivetalk.png';
+import jobshop from '../../public/photos/projects/jobshop.png';
+import cuisine from '../../public/photos/projects/cuisine.gif';
+import privacipher from '../../public/photos/projects/privacipher.png';
+import messaging from '../../public/photos/projects/messaging.jpg';
 
 //Hackathons
 import hackru from '../../public/photos/hackathons/hackru.jpeg';
 import sbuhacks from '../../public/photos/hackathons/sbuhacks.png';
 import sih from '../../public/photos/hackathons/sih.png';
+import hacklahoma from '../../public/photos/hackathons/hacklahoma.png';
 
 // Skills
 // Languages
@@ -68,6 +77,7 @@ import kubernetes from '../../public/icons/tech/kubernets.svg';
 import github from '../../public/icons/tech/github.svg';
 import gitlab from '../../public/icons/tech/gitlab.svg';
 import ethereum from '../../public/icons/tech/ethereum.svg';
+import drive from '../../public/icons/tech/drive.svg';
 // Tools
 import vscode from '../../public/icons/tech/vscode.svg';
 import intellij from '../../public/icons/tech/intellij-idea.svg';
@@ -85,6 +95,7 @@ import sklearn from '../../public/icons/tech/sklearn.svg';
 import tensorflow from '../../public/icons/tech/tensorflow.svg';
 import pytorch from '../../public/icons/tech/pytorch.svg';
 import julia from '../../public/icons/tech/julia.svg';
+import tkinter from '../../public/icons/tech/tkinter.svg';
 // GenAI
 import openai from '../../public/icons/tech/openai.svg';
 import langchain from '../../public/icons/tech/langchain.svg';
@@ -97,6 +108,8 @@ import augrel from '../../public/icons/tech/aug.svg';
 import socket from '../../public/icons/tech/websocket.svg';
 import unity from '../../public/icons/tech/unity.svg';
 import opencv from '../../public/icons/tech/opencv.svg';
+import web3 from '../../public/icons/tech/web3.svg';
+
 
 
 export const navLinks = [
@@ -112,14 +125,14 @@ export const navLinks = [
     id: 'project',
     title: 'Projects'
   },
-  {
-    id: 'achievements',
-    title: 'Achievements'
-  },
+  // {
+  //   id: 'achievements',
+  //   title: 'Achievements'
+  // },
   {
     id: 'resume',
     title: 'Resume',
-    external_link: 'https://drive.google.com/file/d/1gUUvw9LhSCiMyQqHaTYl0Q8VN9kw60Wj/view?usp=sharing'
+    external_link: 'https://drive.google.com/file/d/1O9G-LhUyiL5pA9fu7qAszYjpUk8SRa0K/view?usp=sharing'
   }
 ];
 
@@ -132,16 +145,16 @@ export const services = [
         icon: python,
         link: 'https://www.python.org/',
       },
-      {
-        name: 'JavaScript',
-        icon: javascript,
-        link: 'https://developer.mozilla.org/docs/Web/javascript/',
-      },
-      {
-        name: 'TypeScript',
-        icon: typescript,
-        link: 'https://www.typescriptlang.org/',
-      },
+      // {
+      //   name: 'JavaScript',
+      //   icon: javascript,
+      //   link: 'https://developer.mozilla.org/docs/Web/javascript/',
+      // },
+      // {
+      //   name: 'TypeScript',
+      //   icon: typescript,
+      //   link: 'https://www.typescriptlang.org/',
+      // },
       {
         name: 'Java',
         icon: java,
@@ -152,26 +165,21 @@ export const services = [
         icon: sql,
         link: 'https://sql.org/',
       },
-      {
-        name: 'Golang',
-        icon: golang,
-        link: 'https://go.dev/',
-      },
-      {
-        name: 'C#',
-        icon: csharp,
-        link: 'https://learn.microsoft.com/en-us/dotnet/csharp/',
-      },
+      // {
+      //   name: 'C#',
+      //   icon: csharp,
+      //   link: 'https://learn.microsoft.com/en-us/dotnet/csharp/',
+      // },
       {
         name: 'C++',
         icon: cpp,
         link: 'https://isocpp.org/',
       },
-      {
-        name: 'HTML',
-        icon: html,
-        link: 'https://developer.mozilla.org/docs/Web/HTML/',
-      },
+      // {
+      //   name: 'HTML',
+      //   icon: html,
+      //   link: 'https://developer.mozilla.org/docs/Web/HTML/',
+      // },
       {
         name: 'Shell',
         icon: shell,
@@ -198,30 +206,35 @@ export const services = [
         link: 'https://react.dev/',
       },
       {
-        name: 'Vue.js',
-        icon: vuejs,
-        link: 'https://vuejs.org/',
+        name: 'HTML',
+        icon: html,
+        link: 'https://developer.mozilla.org/docs/Web/HTML/',
       },
       {
-        name: 'Angular',
-        icon: angular,
-        link: 'https://angular.dev/',
+        name: 'JavaScript',
+        icon: javascript,
+        link: 'https://developer.mozilla.org/docs/Web/javascript/',
       },
       {
-        name: 'JavaFX',
-        icon: javafx,
-        link: 'https://openjfx.io/',
+        name: 'TypeScript',
+        icon: typescript,
+        link: 'https://www.typescriptlang.org/',
       },
+      // {
+      //   name: 'JavaFX',
+      //   icon: javafx,
+      //   link: 'https://openjfx.io/',
+      // },
     ],
   },
   {
     title: 'BACKEND',
     icons: [
-      {
-        name: 'Flask',
-        icon: flask,
-        link: 'https://flask.palletsprojects.com/en/3.0.x/',
-      },
+      // {
+      //   name: 'Flask',
+      //   icon: flask,
+      //   link: 'https://flask.palletsprojects.com/en/3.0.x/',
+      // },
       {
         name: 'Django',
         icon: django,
@@ -237,31 +250,31 @@ export const services = [
         icon: nodejs,
         link: 'https://nodejs.org/en',
       },
-      {
-        name: 'Next.js',
-        icon: nextjs,
-        link: 'https://nextjs.org/',
-      },
-      {
-        name: 'Express.js',
-        icon: expressjs,
-        link: 'https://expressjs.com/',
-      },
-      {
-        name: 'Firebase',
-        icon: firebase,
-        link: 'https://firebase.google.com/',
-      },
-      {
-        name: 'Auth.js',
-        icon: authjs,
-        link: 'https://authjs.dev/',
-      },
-      {
-        name: 'ASP .NET',
-        icon: dotnet,
-        link: '',
-      },
+      // {
+      //   name: 'Next.js',
+      //   icon: nextjs,
+      //   link: 'https://nextjs.org/',
+      // },
+      // {
+      //   name: 'Express.js',
+      //   icon: expressjs,
+      //   link: 'https://expressjs.com/',
+      // },
+      // {
+      //   name: 'Firebase',
+      //   icon: firebase,
+      //   link: 'https://firebase.google.com/',
+      // },
+      // {
+      //   name: 'Auth.js',
+      //   icon: authjs,
+      //   link: 'https://authjs.dev/',
+      // },
+      // {
+      //   name: 'ASP .NET',
+      //   icon: dotnet,
+      //   link: '',
+      // },
     ],
   },
   {
@@ -277,46 +290,46 @@ export const services = [
         icon: mysql,
         link: 'https://www.mysql.com/',
       },
-      {
-        name: 'MongoDB',
-        icon: mongodb,
-        link: 'https://www.mongodb.com/',
-      },
+      // {
+      //   name: 'MongoDB',
+      //   icon: mongodb,
+      //   link: 'https://www.mongodb.com/',
+      // },
       {
         name: 'Oracle',
         icon: oracle,
         link: 'https://oracle.com/',
       },
-      {
-        name: 'Neo4j',
-        icon: neo4j,
-        link: 'https://neo4j.com/',
-      },
-      {
-        name: 'Elastic Search',
-        icon: elasticsearch,
-        link: 'https://www.elastic.co/',
-      },
-      {
-        name: 'Firestore',
-        icon: firestore,
-        link: 'https://cloud.google.com/firestore/',
-      },
+      // {
+      //   name: 'Neo4j',
+      //   icon: neo4j,
+      //   link: 'https://neo4j.com/',
+      // },
+      // {
+      //   name: 'Elastic Search',
+      //   icon: elasticsearch,
+      //   link: 'https://www.elastic.co/',
+      // },
+      // {
+      //   name: 'Firestore',
+      //   icon: firestore,
+      //   link: 'https://cloud.google.com/firestore/',
+      // },
       {
         name: 'Snowflake',
         icon: snowflake,
         link: 'https://www.snowflake.com/en/',
       },
-      {
-        name: 'MariaDB',
-        icon: mariadb,
-        link: '',
-      },
-      {
-        name: 'DynamoDB',
-        icon: dynamodb,
-        link: '',
-      },
+      // {
+      //   name: 'MariaDB',
+      //   icon: mariadb,
+      //   link: '',
+      // },
+      // {
+      //   name: 'DynamoDB',
+      //   icon: dynamodb,
+      //   link: '',
+      // },
     ],
   },
   {
@@ -327,26 +340,26 @@ export const services = [
         icon: aws,
         link: 'https://aws.amazon.com/',
       },
-      {
-        name: 'Azure Cloud Services',
-        icon: azure,
-        link: 'https://azure.microsoft.com/en-us',
-      },
+      // {
+      //   name: 'Azure Cloud Services',
+      //   icon: azure,
+      //   link: 'https://azure.microsoft.com/en-us',
+      // },
       {
         name: 'Google Cloud Platform',
         icon: googlecloudplatform,
         link: 'https://cloud.google.com/',
       },
-      {
-        name: 'Docker',
-        icon: docker,
-        link: 'https://www.docker.com/',
-      },
-      {
-        name: 'Kubernetes',
-        icon: kubernetes,
-        link: 'https://kubernetes.io/',
-      },
+      // {
+      //   name: 'Docker',
+      //   icon: docker,
+      //   link: 'https://www.docker.com/',
+      // },
+      // {
+      //   name: 'Kubernetes',
+      //   icon: kubernetes,
+      //   link: 'https://kubernetes.io/',
+      // },
       {
         name: 'GitHub',
         icon: github,
@@ -382,16 +395,16 @@ export const services = [
         icon: intellij,
         link: 'https://www.jetbrains.com/idea/',
       },
-      {
-        name: 'GraphQL',
-        icon: graphql,
-        link: 'https://graphql.org/',
-      },
-      {
-        name: 'Airflow',
-        icon: airflow,
-        link: 'https://airflow.apache.org/',
-      },
+      // {
+      //   name: 'GraphQL',
+      //   icon: graphql,
+      //   link: 'https://graphql.org/',
+      // },
+      // {
+      //   name: 'Airflow',
+      //   icon: airflow,
+      //   link: 'https://airflow.apache.org/',
+      // },
       {
         name: 'Jira',
         icon: jira,
@@ -447,11 +460,11 @@ export const services = [
       icon: keras,
       link: 'https://keras.io/',
     },
-    {
-      name: 'Julia',
-      icon: julia,
-      link: '',
-    },
+    // {
+    //   name: 'Julia',
+    //   icon: julia,
+    //   link: '',
+    // },
   ],
 },
 {
@@ -462,16 +475,16 @@ export const services = [
       icon: openai,
       link: 'https://openai.com',
     },
-    {
-      name: 'LLama2',
-      icon: llama2,
-      link: 'https://llama.meta.com/llama2/',
-    },
-    {
-      name: 'Mistral',
-      icon: mistral,
-      link: 'https://mistral.ai/',
-    },
+    // {
+    //   name: 'LLama2',
+    //   icon: llama2,
+    //   link: 'https://llama.meta.com/llama2/',
+    // },
+    // {
+    //   name: 'Mistral',
+    //   icon: mistral,
+    //   link: 'https://mistral.ai/',
+    // },
     {
       name: 'Langchain',
       icon: langchain,
@@ -482,89 +495,79 @@ export const services = [
       icon: chromadb,
       link: 'https://www.trychroma.com/',
     },
-    {
-      name: 'Pinecone',
-      icon: pinecone,
-      link: 'https://www.pinecone.io/',
-    },
+    // {
+    //   name: 'Pinecone',
+    //   icon: pinecone,
+    //   link: 'https://www.pinecone.io/',
+    // },
   ],
 },
 ];
 
 export const experiences = [
   {
-    title: 'Software Engineer & Research Assistant',
-    companyName: 'Rutgers',
-    icon: rutgers,
-    date: 'Jan 2023 - May 2024',
+    title: 'Research Assistant',
+    companyName: 'OU Supercomputing Center for Education & Research(OSCER)',
+    icon: ou,
+    date: 'Sep 2023 - Present',
     points: [
-      'Conducted a study to evaluate the efficacy and efficiency of consistent-hash server implementation, successfully executing both RING and MAGLEV approaches.',
-      'Analyzed both ring and maglev approaches for a scale of 10^8 users to draw conclusions and identify scenarios as in which one performs better. This analysis resulted in identifying maglev as the better approach.',
-      'Tested the performance and reliability of a file storage system by simulating server failures and conducting load testing with Python scripts. Analyzed 3+ key performance indicators, including throughput, bandwidth, and latency.',
+      'Automated Node Reboot Process: Developed a Linux script using consistent hashing to automate the bi-weekly reboot of 1,000 nodes. This process ensured no overlap in reboots, preventing downtime and significantly improving system reliability.',
+      'Researcher Support: Served as the main technical contact for over 50 users, streamlining researcher support and improving the efficiency of supercomputer resource utilization. This hands-on support enhanced overall user productivity and system accessibility.',
+      'Hardware and Software Troubleshooting: Diagnosed and resolved various hardware and software failures on both storage and compute nodes, helping reduce system downtime and ensuring a smoother operational workflow.',
+       'Inventory Management System: Built a comprehensive inventory management system using ReactJS and PostgreSQL to track over 500 datacenter components. This system significantly improved the efficiency of component retrieval and tracking.',
+       'OpenStack Integration: Worked with OpenStack, an open-source platform for cloud infrastructure management, facilitating the deployment, scaling, and automation of virtualized resources within the data center environment.',
+       'Salt Automation: Implemented Salt for configuration management and task automation, allowing remote execution and state-driven system updates across multiple nodes, enhancing system-wide consistency and reducing manual interventions.',
     ],
   },
   {
-    title: 'Software Engineer',
-    companyName: 'Cognizant',
-    icon: cognizant,
-    date: 'Jan 2021 - July 2022',
+    title: 'Senior Systems Engineer',
+    companyName: 'Infosys',
+    icon: infosys,
+    date: 'Jan 2021 - Dec 2022',
     points: [
-      'Developed RESTful APIs with Node.js and Express.js to efficiently handle financial data requests, enabling higher request processing capacity by 30% using asynchronous programming and optimized database interactions.',
-      'Integrated GraphQL into the existing RESTful API architecture, enhancing data fetching flexibility and reducing over-fetching by 60%, resulting in improved application performance.',
-      'Optimized database performance with MongoDB and Redis by restructuring data to reduce the need for joins and implementing caching for frequently accessed data resulting in reduced query latencies and improved application responsiveness.',
-      'Streamlined response processing by converting JSON objects to Google Protocol Buffers (protobuf) format, minimizing payload size and parsing overhead for efficient data transfer.',
-      'Improved resource and system performance by 40% by modularizing legacy code and incorporating reusable Angular components, reducing code redundancy.',
-      'Developed unit and integration tests using JUnit and Mockito. Configured Jenkins to automatically execute these tests upon code changes, ensuring code reliability, and facilitating continuous integration and deployment.',
-      'Incorporated dynamic data loading in frontend form controls, based on end-user interactions resulting in a more intuitive and responsive user experience.',
-      'Maintained responsive 100 TB large big data systems and ETL pipelines for data warehousing.'
+      'Full-Stack Application Development: Designed and developed a full-stack application using ReactJS, Java Spring Boot, MySQL, and RESTful APIs. This application streamlined client data retrieval processes, achieving a 40% improvement in efficiency and providing a seamless user experience.',
+      'Data Management and Automation: Managed and processed datasets exceeding 1 terabyte by utilizing shell scripting to automate daily data delivery to clients. Data was efficiently distributed via GIT, Google Cloud Platform (GCP), and email, significantly optimizing operational workflows and reducing manual effort.',
+      'Agile Development Contributions: Actively contributed to 10 Agile-driven development cycles. By prioritizing and refining 25 user stories, I helped ensure the on-time delivery of application features, resulting in a 15% increase in user satisfaction. This approach allowed for faster iterations and improved client feedback integration.',
+      'Role-Based Access Control (RBAC) Implementation: Designed and implemented RBAC using OAuth 2.0 and JSON Web Tokens (JWT) to enhance data security. This ensured that only authorized users could access sensitive information, providing robust protection against unauthorized access and improving compliance with data protection standards.',
+      'Apache Kafka for Messaging and Data Streaming: Integrated Kafka, a distributed event streaming platform, to handle real-time data feeds and asynchronous communication between different system components. This enhanced the application’s scalability and reliability by allowing it to process large volumes of data and events in real-time, ensuring smooth and uninterrupted data flow across services.',
     ],
   },
   {
-    title: 'Associate Full-Stack Engineer Trainee',
-    companyName: 'Hofincons group',
-    icon: hofincons,
+    title: 'Software Engineer Intern',
+    companyName: 'Infosys',
+    icon: infosys,
     date: 'May 2020 - Dec 2020',
     points: [
-    'Implemented API gateway using Nginx and Lua, enabling centralized authentication, rate limiting, and monitoring for a microservices-based application',
-    'Engineered serverless solutions on AWS to optimize data processing pipelines for large-scale data transformations implementing automated data ingestion workflows using Boto3, Lambda functions and RDS, resulting in improved system efficiency.',
-    'Developed Python-based gRPC services for real-time data streaming between microservices, leveraging Kafka as a message broker for reliable message delivery and Cassandra as a scalable datastore for storing financial market data.',
-    'Enforced role-based access control using OAuth 2.0 and JSON Web Tokens (JWT) to prevent unauthorized access to financial data, enhancing data security and privacy.'
-    ],
-  },
-  {
-    title: 'Machine Learning Engineer Intern',
-    companyName: 'MedTourEasy',
-    icon: medtoureasy,
-    date: 'Jan 2020 - Mar 2020',
-    points: [
-    'Designed and implemented a sophisticated LightFM recommendation model that utilizing transactional data from existing customers and also using global external dataset from Mintel, encompassing 100K+ product launches and ingredients to strategically identify opportunities for new product sales within the existing customer base.',
-    'Developed a price forecasting model by employing Prophet and regression models tailored to diverse products within the European region. Published the accurate forecasts on a Power BI dashboard to create a comprehensive solution that enables corporate users to make strategic decisions and do in-depth analysis.'  
-    ]
-  },
-  {
-    title: 'Software Development Engineer Intern',
-    companyName: 'Bharath Dynamics Limited',
-    icon: bdl,
-    date: 'May 2019 - July 2019',
-    points: [
-      'Refactored a legacy batch processing system by migrating it to a stream processing pipeline using Apache Spark Structured Streaming and Apache Kafka, enabling real-time data processing and reducing processing times by 70%.',
-      'Optimized database querying times, reducing latency by 25% to give a smoother user experience by implementing caching using Redis, partitioning data tables with AWS DynamoDB and indexing.',
+        'Mentorship and Skill Development: Engaged in mentorship with industry-recognized IT experts, mastering Java Programming, MySQL, Python Programming, PHP, Linux Shell Scripting, HTML, and CSS. Gained practical application experience through the successful completion of 4 diverse projects, demonstrating strong technical proficiency and project execution skills.',
+        'Airline Ticket Booking Application: Designed and developed a fully functional airline ticket booking application using PHP, JavaScript, MySQL, HTML, and CSS. The application was built to handle up to 1,000 concurrent users, demonstrating scalability and reliability, while ensuring an intuitive user interface for streamlined ticket reservations.',
+        'Collaboration and Problem-Solving: Worked collaboratively in project teams, leveraging technical skills to troubleshoot issues and optimize performance. Applied problem-solving strategies to improve functionality, user experience, and system security across projects.',
     ],
   }
 ];
 
 export const projects = [
-  // Sociogram
+  // Marketplace
+  // ethereum, solidity, web3, nodejs, truffle, html, css
   {
-    name: 'Sociogram',
+    name: 'Decentralized Marketplace on Ethereum Testnet',
     description:
-    "Developed a social media platform emphasizing scalability, leveraging FastAPI's asynchronous programming; secured with OAuth2 and JWT. Stored user and connections graph data using Neo4J and MongoDB. Utilized AWS S3 to seamlessly manage user media assets and employed FileIO for temporary storage. \n Conducted research into message queues and explored the potential of Celery for optimizing media storage and compression processes.Containerized through Docker to deploy the application on AWS and integrating GraphQL to enhance system performance and efficiency.",
+    "Developed a decentralized marketplace on the Ethereum Testnet using Ethereum, Solidity, Web3, Node.js, and Truffle, enabling secure peer-to-peer transactions on the blockchain. The marketplace allows users to list, buy, and sell items seamlessly through decentralized smart contracts. Implemented a responsive user interface using HTML, CSS, and JavaScript, ensuring a smooth and consistent user experience across devices. Additionally, integrated MetaMask wallet connectivity, allowing users to authenticate and complete transactions with Ether, streamlining the payment process and enhancing the overall security and efficiency of the marketplace. The project is available on GitHub for further exploration.",
 
     techstack: [
       {
-        name: 'AWS Cloud Services',
-        icon: aws,
-        link: 'https://aws.amazon.com/',
+        name: 'Solidity',
+        icon: solidity,
+        link: 'https://soliditylang.org/',
+      },
+      {
+        name: 'Ethereum',
+        icon: ethereum,
+        link: 'https://ethereum.org/en/',
+      },
+      {
+        name: 'Web3',
+        icon: web3,
+        link: '',
       },
       {
         name: 'JavaScript',
@@ -572,19 +575,9 @@ export const projects = [
         link: 'https://developer.mozilla.org/docs/Web/javascript/',
       },
       {
-        name: 'Neo4j',
-        icon: neo4j,
-        link: '',
-      },
-      {
         name: 'NodeJS',
         icon: nodejs,
         link: 'https://nodejs.org/en',
-      },
-      {
-        name: 'React',
-        icon: react,
-        link: 'https://react.dev/',
       },
       {
         name: 'MongoDB',
@@ -595,16 +588,6 @@ export const projects = [
         name: 'Express.js',
         icon: expressjs,
         link: 'https://expressjs.com/',
-      },
-      {
-        name: 'Docker',
-        icon: docker,
-        link: 'https://www.docker.com/',
-      },
-      {
-        name: 'GraphQL',
-        icon: graphql,
-        link: 'https://graphql.org/',
       },
       {
         name: 'SQL',
@@ -623,7 +606,7 @@ export const projects = [
       }
     ],
     image: sociogram,
-    srcLink: 'https://github.com/DeeveshChowdary/sociogram-backend',
+    srcLink: 'https://github.com/SumaSri9',
   },
 
 
@@ -670,31 +653,37 @@ export const projects = [
       }
     ],
     image: sengine,
-    prodLink: 'https://text-based-search-engine.herokuapp.com/',
-    srcLink: 'https://github.com/DeeveshChowdary/Word-based-search-engine',
+    // prodLink: 'https://text-based-search-engine.herokuapp.com/',
+    srcLink: 'https://github.com/SumaSri9',
   },
 
-  // Ethicate 
+  // Job Shop
+  //Java, Jsp, Azure, MS SQL 
   {
-    name: 'Ethicate - A Blockchain based certificate issuing platform',
+    name: 'Job shop',
     description:
-      'Architected a Blockchain-based application using Node.js, Ethereum, Flask and Postgres to assist universities in issuing micro-credentials to students on the blockchain network. Developed 9 backend API\'s, services, and Ethereum network communication protocols and assisted in developing "Registrar" and "Student" dashboards.',
+      'Developed a Job Shop Application using Java, JSP, Azure, and MS SQL to manage and book services such as paint jobs, optimizing the booking and task assignment process. Designed and implemented a relational database, creating over 10 MY SQL stored procedures to efficiently manage bookings, insert data, and generate records. Additionally, built a command-line interface in Java for users to interact with the database, allowing them to book services, manage tasks, and retrieve records. The project also features a JSP-based web application, providing a user-friendly interface for booking services and managing user records.',
     techstack: [
+      {
+        name: 'Java',
+        icon: java,
+        link: '',
+      },
+      {
+        name: 'Azure',
+        icon: azure,
+        link: ''
+      },
       {
       name: 'NodeJS',
       icon: nodejs,
       link: 'https://nodejs.org/en',
     },
-      {
-        name: 'Solidity',
-        icon: solidity,
-        link: 'https://soliditylang.org/',
-      },
-      {
-        name: 'Ethereum',
-        icon: ethereum,
-        link: 'https://ethereum.org/en/',
-      },
+    {
+      name: "SQL",
+      icon: sql,
+      link: '',
+    },
       {
         name: 'HTML',
         icon: html,
@@ -709,27 +698,45 @@ export const projects = [
         name: 'JavaScript',
         icon: javascript,
         link: 'https://developer.mozilla.org/docs/Web/javascript/',
-      },
+      }
       
 
     ],
-    image: ethicate,
-    prodLink: 'https://devpost.com/software/ethicate-1q60zc',
-    srcLink: 'https://github.com/DeeveshChowdary/BlockchainCertificates',
+    image: jobshop,
+    // prodLink: 'https://text-based-search-engine.herokuapp.com/',
+    // srcLink: 'https://github.com/SumaSri9',
   },
 
-  // Sign Language
+  // P2P messaging
+  // Python, socket, AES, Tkinter, PBKDF2
   {
     
-    name: 'This is your sign - A Speech to Sign Language Representation(AR) App',
+    name: 'Secure Instant Point to point messaging',
     description:
-      'Developed an end-to-end application using C\#, NLP in Unity web engine to convert speech into sign language based on ASL rules. Integrated ASL video with Microsoft Hololens to create an immersive augmented reality experience that enhances accessibility for the hearing-impaired community.',  
+      'Developed a secure instant point-to-point messaging system using Python, Sockets, AES, Tkinter, and PBKDF2, ensuring encrypted transmission of over 10,000 messages between users. The system employed AES encryption for data security and PBKDF2-based key generation for user authentication, mitigating vulnerabilities and supporting a user base of 500 individuals. Additionally, designed a Tkinter-based user-friendly interface, which increased user engagement and made the application more intuitive to interact with. The project is available on GitHub for further exploration.',  
       techstack: [
+        {
+          name: 'Python',
+          icon: python,
+          link: 'https://www.python.org/',
+        },
 
       {
-        name: 'C#',
-        icon: csharp,
-        link: 'https://developer.mozilla.org/docs/Web/javascript/',
+        name: 'TensoPrFlow',
+        icon: tensorflow,
+        link: '',
+      },
+
+      {
+        name: 'Tkinter',
+        icon: tkinter,
+        link: '',
+      },
+
+      {
+        name: 'Web Socket',
+        icon: socket,
+        link: 'https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API',
       },
       {
         name: 'HTML',
@@ -747,32 +754,23 @@ export const projects = [
         link: '',
       },
       {
-        name: 'TensorFlow',
-        icon: tensorflow,
-        link: '',
-      },
-      {
-        name: 'Unity 3D',
-        icon: unity,
-        link: '',
-      },
-      {
-        name: 'OpenCV',
-        icon: opencv,
+        name: 'Pytorch',
+        icon: pytorch,
         link: '',
       }
 
     ],
-    image: signlang,
+    image: messaging,
     // prodLink: '',
-    srcLink: 'https://github.com/DeeveshChowdary',
+    // srcLink: 'https://github.com/SumaSri9',
   },
 
-  // hive test
+  // Cuisine
+  // 
   {
-    name: 'Hive Talk',
+    name: 'Cuisine predictor',
     description:
-      'Developed a decentralized peer-to-peer (P2P) chat application using Vue.js and WebRTC. The application features end-to-end encryption for secure messaging, a fully decentralized architecture for enhanced privacy, and scalable performance to handle many concurrent users. The intuitive interface supports features like file sharing and group chats, demonstrating strong capabilities in creating secure, user-friendly software solutions.',    
+      'Developed a cuisine predictor application using Python, NLP, cosine similarity, NLTK, SpaCy, TensorFlow, and NumPy, achieving an accuracy rate of 96% in categorizing ingredients into specific cuisines. The project incorporated Lemmatization and Vectorization techniques to enhance data preprocessing, leading to a 20% improvement in computational efficiency. By leveraging cosine similarity to measure the resemblance between vectors, the model effectively captured textual data nuances, reducing misclassifications across 50 different cuisine categories. The project is available on GitHub for further details.',    
       techstack: [
       {
         name: 'Python',
@@ -790,24 +788,30 @@ export const projects = [
         link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Vue. js',
-        icon: vuejs,
-        link: 'https://vuejs.org/',
+        name: 'NumPy',
+        icon: numpy,
+        link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Web Socket',
-        icon: socket,
-        link: 'https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API',
-      }
+        name: 'Pandas',
+        icon: pandas,
+        link: 'https://aws.amazon.com/',
+      },
+      {
+        name: 'PyTorch',
+        icon: pytorch,
+        link: 'https://aws.amazon.com/',
+      },
     ],
-    image: hivetalk,
+    image: cuisine,
+    srcLink: 'https://github.com/SumaSri9',
   },
 
   //Snowflake
   {
-    name: 'Snowflake ETL Pipeline',
+    name: 'Privacipher Text redaction wizard',
     description:
-      'Developed end-to-end ETL pipeline leveraging Snowflake’s cloud-native data warehouse capabilities with Azure. Implemented automated data processing workflows using Apache Airflow, ensuring robust scheduling and monitoring. Leveraged PySpark for complex data transformations and processing tasks, optimizing performance by 39%.',
+      'Developed Privacipher: Text Redaction Wizard using Python, CommonRegex, Google Drive API, and Git, automating the redaction process for sensitive information in over 5,000 text files. By leveraging the CommonRegex library and custom regex patterns, the project significantly improved processing efficiency. Additionally, integrated cloud storage platforms, enabling the redactor to directly access and redact files stored in Google Drive and Dropbox, streamlining the workflow for secure content management. The project is available on GitHub for further exploration.',
     techstack: [
       {
         name: 'Python',
@@ -820,27 +824,18 @@ export const projects = [
         link: 'https://flask.palletsprojects.com/en/3.0.x/',
       },
       {
-        name: 'Snowflake',
-        icon: snowflake,
-        link: 'https://www.snowflake.com/en/',
+        name: 'Google Drive',
+        icon: drive,
+        link: '',
       },
       {
-        name: 'Airflow',
-        icon: airflow,
-        link: 'https://airflow.apache.org/',
-      },
-      {
-        name: 'AWS Cloud Services',
-        icon: aws,
-        link: 'https://aws.amazon.com/',
-      },
-      {
-        name: 'Azure Cloud Services',
-        icon: azure,
-        link: 'https://azure.microsoft.com/en-us',
+        name: 'Git',
+        icon: git,
+        link: '',
       }
     ],
-    image: snowflakeETL,
+    image: privacipher,
+    srcLink: 'https://github.com/SumaSri9',
   }
 ];
 
@@ -883,16 +878,16 @@ export const achievements = [
     achievement:
       "Created a blockchain-based application to issue digital credentials. The system ensures each certificate is verifiable and immune to tampering. This project highlights expertise in using blockchain technology to enhance the security and authenticity of digital credentials.",
     name: 'SBU Hacks',
-    designation: '#1 Winner, Stony Brook University, Sep 2022',
+    designation: '#1 Winner, Stony Brook University, Feb 2023',
     image: sbuhacks,
-    link: 'https://devpost.com/software/certichain'
+    link: 'https://sbuhacks.org/'
   },
   {
     achievement: 'Developed a decentralized platform for generating and managing certificates with blockchain integration. The use of blockchain to store certificate information guarantees that all issued certificates are genuine and cannot be altered.',
-    name: 'Hack RU',
-    designation: '#1 Winner, Rutgers University, Feb 2023',
-    image: hackru,
-    link: 'https://devpost.com/software/ethicate-1q60zc',
+    name: 'Hacklahoma',
+    designation: '#1 Winner, University of Oklahoma, Sep 2023',
+    image: hacklahoma,
+    link: 'https://hacklahoma.org/',
   },
   {
     achievement: 'Secured second place by developing a smart energy management platform. This project utilized machine learning algorithms to monitor and optimize energy consumption in real-time, leading to significant cost savings and improved energy efficiency.',

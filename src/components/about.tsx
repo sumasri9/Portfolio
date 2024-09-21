@@ -43,10 +43,9 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn('', '', 0.1, 1) as Variants} className='section-text pointer-events-auto mt-4 max-w-3xl text-[17px] leading-[30px] text-text'>
-        As an experienced computer science professional with a Master&apos;s Degree in Computer Science from Rutgers University, I bring a strong foundation in Software Development, Data Engineering, Cloud Computing and Machine Learning. I am proficient in Python, TypeScript, JavaScript, Java, C# and Golang. Throughout my
-        journey, I&apos;ve worked with various frameworks like Flask, Django, Node.js, Spring Boot and Express.js. I&apos;m a quick learner, I thrive on collaboration
-        and enjoy creating efficient, scalable, and user-friendly solutions to tackle real-world problems. I&apos;m eager to work together and contribute my
-        skills to bring your ideas to life. Feel free to reach out and let&apos;s explore how we can create something great together!
+
+      As a detail-oriented Software developer and technical specialist, I&apos;m dedicated to building efficient, reliable solutions that make a tangible impact. With expertise in ReactJS, Java Spring Boot, and PostgreSQL, I&apos;ve streamlined data retrieval processes, improved component tracking for large-scale operations, and enhanced system reliability through automation. I have experience managing terabyte-scale datasets, automating operational tasks, and ensuring robust data security using OAuth 2.0 and JWT.
+      My approach combines strong problem-solving skills with a focus on system automation, data management, and technical troubleshooting. I am also skilled at diagnosing hardware and software issues, enhancing operational efficiency, and providing timely support in fast-paced environments. Additionally, my experience working in Agile teams has sharpened my ability to adapt quickly, prioritize tasks, and deliver solutions on time.
       </motion.p>
 
       <div className='mt-20 flex select-none flex-wrap gap-10'>

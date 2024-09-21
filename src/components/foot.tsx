@@ -8,10 +8,10 @@ const Foot = () => {
         Made with lots of ❤️
       </div>
       <p className='mt-5 text-[14px] opacity-75 '>
-        &copy; {new Date().getFullYear()} Suma Sri Chowdary Atheti <br />
+        &copy; {new Date().getFullYear()} Suma Atheti <br />
       </p>
       <a
-        href='https://github.com/DeeveshChowdary/Portfolio'
+        href='https://github.com/SumaSri9/Portfolio'
         target='_blank'
         rel='noreferrer'
         className='mt-4 flex cursor-pointer items-center gap-1 text-[18px] font-medium text-text transition-transform duration-200 hover:-translate-y-[2px] focus:-translate-y-[2px] hover:text-primary focus:text-primary'
